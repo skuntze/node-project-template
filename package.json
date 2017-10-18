@@ -1,0 +1,26 @@
+{
+    "name": "node-project-template",
+    "version": "1.0.0",
+    "description": "A template for setting up node / express projects.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/skuntze/node-project-template.git"
+    },
+    "keywords": ["node", "express"],
+    "author": "Sascha Kuntze <sascha@kuntze.co>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/skuntze/node-project-template/issues"
+    },
+    "homepage": "https://github.com/skuntze/node-project-template#readme",
+    "dependencies": {
+        "body-parser": "1.18.2",
+        "dotenv": "4.0.0",
+        "express": "4.16.2",
+        "serve-favicon": "2.4.5"
+    }
+}
